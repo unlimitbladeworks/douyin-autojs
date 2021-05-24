@@ -17,4 +17,8 @@ https://github.com/hyb1996/Auto.js
 
 # 使用方法截图
 
-//todo 待完善
+
+Todo List
+---
+
+- [ ] 完善 readme 使用教程
