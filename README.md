@@ -15,4 +15,6 @@ https://github.com/hyb1996/Auto.js
 
 
 
-# 
+# 使用方法截图
+
+//todo 待完善
