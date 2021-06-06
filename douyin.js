@@ -71,7 +71,7 @@ function clickEvent() {
     while (!click(dyName));
     sleep(2000);
     //点击更多（右上角的三个点）
-    id("g73").findOne().click();
+    desc("更多").findOne().click();
     sleep(3000);
     //点击的名字
     while (!click(dyName));

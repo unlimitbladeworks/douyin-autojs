@@ -20,5 +20,5 @@ https://github.com/hyb1996/Auto.js
 
 Todo List
 ---
-
+- [ ] 下载手机软件教程
 - [ ] 完善 readme 使用教程
