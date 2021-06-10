@@ -6,15 +6,15 @@ var y = height / 2;
 console.log("屏幕分辨率为%s * %s", width, height);
 setScreenMetrics(device.width, device.height);
 
-function sop(){
+function sop() {
     toast("开始");
     var a = 0;
-    while(a < 50){
+    while (a < 50) {
         sleep(1000);
-        while(!click("已关注"));
+        while (!click("已关注"));
         sleep(2000);
         swipe(x, y, x, 0, 300);
-        a=a+1;
+        a = a + 1;
     };
 };
 

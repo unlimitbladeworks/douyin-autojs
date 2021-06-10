@@ -1,6 +1,6 @@
 var digital = 1;
 var dyName = '美团外卖';
-// digital = dialogs.rawInput("请输入要关注的粉丝，1：美团外卖，2：饿了么，3：号主名");
+digital = dialogs.rawInput("请输入要关注的粉丝，1：美团外卖，2：饿了么，3：号主名");
 if (digital === 2) {
     dyName = '饿了么';
 }
@@ -95,7 +95,7 @@ function following() {
     for (var index = 2; index < size; index++) {
         // console.log('循环里的第' + index + '个');
         var focusObject = focus.get(index);
-        console.log('focusObject.text:'+focusObject.text());
+        console.log('focusObject.text:' + focusObject.text());
         if (isContains(focusObject.text(), '推荐') || containsNumber(focusObject.text())) {
             continue;
         }
@@ -110,7 +110,7 @@ function following() {
 }
 
 function containsNumber(str) {
-    var reg=/\d/;
+    var reg = /\d/;
     return reg.test(str);
 }
 
